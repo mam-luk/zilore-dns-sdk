@@ -80,7 +80,7 @@ class Records extends Client
                         'X-Auth-Key' => $this->apiKey
                     ]
                 )
-                ->delete($this->baseUrl . '/dns/v1/domains/' . $domain . '/records?record_id' . $recordId);
+                ->delete($this->baseUrl . '/dns/v1/domains/' . $domain . '/records?record_id=' . $recordId);
 
         if (!$r->ok()) {
             $this->errors[] = $r->body();
