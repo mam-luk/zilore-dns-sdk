@@ -1,6 +1,10 @@
+# Deprecation Notice
+
+This SDK is deprecated as Zilore ceased operations in July, 2014.
+
 # Zilore DNS SDK
 
-This is a simple SDK for <a href="https://zilore.com/?r=455e9e0de5cd86a9c371000077f6bb9f" target="_blank">Zilore DNS</a> API. It is written in Python 8.2 and allows for interaction with the 
+This is a simple SDK for <a href="https://zilore.com/?r=455e9e0de5cd86a9c371000077f6bb9f" target="_blank">Zilore DNS</a> API. It is written in PHP 8.2 and allows for interaction with the 
 Domains, Records, GeoRecords FailoverRecords APIs from Zilore (https://zilore.com/en/help/api). 
 
 It was designed to be used with the Zilore DNS CLI, which allows you to declartively declare your DNS, GeoDNS and Failovers 
